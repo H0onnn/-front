@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @h0onnn/themes",
-    "startTime": "2024-03-11T06:57:41.070Z",
-    "endTime": "2024-03-11T06:57:46.008Z",
+    "command": "nx build @h0onnn/react-components-layout",
+    "startTime": "2024-03-11T08:17:15.705Z",
+    "endTime": "2024-03-11T08:17:24.536Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@h0onnn/esbuild-config:build",
       "target": "build",
       "projectName": "@h0onnn/esbuild-config",
-      "hash": "8491184297226663626",
-      "startTime": "2024-03-11T06:57:41.074Z",
-      "endTime": "2024-03-11T06:57:41.982Z",
+      "hash": "15211636095200533646",
+      "startTime": "2024-03-11T08:17:15.709Z",
+      "endTime": "2024-03-11T08:17:16.592Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
@@ -21,9 +21,20 @@
       "taskId": "@h0onnn/themes:build",
       "target": "build",
       "projectName": "@h0onnn/themes",
-      "hash": "4969989652156560762",
-      "startTime": "2024-03-11T06:57:41.983Z",
-      "endTime": "2024-03-11T06:57:46.008Z",
+      "hash": "14467897446557977581",
+      "startTime": "2024-03-11T08:17:16.593Z",
+      "endTime": "2024-03-11T08:17:20.244Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@h0onnn/react-components-layout:build",
+      "target": "build",
+      "projectName": "@h0onnn/react-components-layout",
+      "hash": "4912373683444679660",
+      "startTime": "2024-03-11T08:17:20.246Z",
+      "endTime": "2024-03-11T08:17:24.535Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
