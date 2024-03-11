@@ -1,0 +1,11 @@
+[31m[1mSyntax Error[22m[39m: Expected "$", "$(", "$((", "${", "\"", "\\", "\\\n", or [^$"] but end of input found (line 1, column 12).
+    at pg (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:12:3213)
+    at u8e (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:12:22154)
+    at ND (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:12:22327)
+    at TE (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:168:1973)
+    at x (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:189:2758)
+    at /Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:189:2942
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Tn.mktempPromise (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:9:44849)
+    at async Object.Wb (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:189:2571)
+    at async t0.execute (/Users/hoonnn/Desktop/Home/Study/Next/-front/.yarn/releases/yarn-4.1.1.cjs:499:2341)
