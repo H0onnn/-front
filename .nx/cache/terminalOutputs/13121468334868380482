@@ -1,0 +1,47 @@
+[1m@storybook/cli v7.6.17[22m[0m[0m
+[0m[0m
+
+[35m[1mattention[22m[39m => Storybook now collects completely anonymous telemetry regarding usage.
+This information is used to shape Storybook's roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[36mhttps://storybook.js.org/telemetry[39m
+
+info => Starting manager..
+WARN No story files found for the specified pattern: [34mstories/**/*.mdx[39m
+info => Starting preview..
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[38;2;241;97;140m╭─────────────────────────────────────────────────────────────────────╮[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [38;2;162;224;94mStorybook [1m7.6.17[22m for [1mreact-vite[22m started[39m                           [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90m[4m286 ms[24m for manager and [4m2.02 s[24m for preview[39m                         [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   Local:            [36mhttp://localhost:6006/[39m                          [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   On your network:  [36mhttp://192.168.35.3:6006/[39m                       [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [38;2;243;173;56mA new version ([1m8.0.0[22m) is available![39m                               [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90mUpgrade now:[39m [38;2;162;224;94mnpx storybook@latest upgrade[39m                         [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90mRead full changelog:[39m                                              [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90m[4mhttps://github.com/storybookjs/storybook/blob/next/CHANGELOG.md[24m[39m   [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m╰─────────────────────────────────────────────────────────────────────╯[39m
+[2m오후 11:15:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:15:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:15:56[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오후 11:15:56[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오후 11:15:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:15:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:16:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:16:42[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:16:46[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오후 11:16:46[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오후 11:16:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:16:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오후 11:16:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오후 11:16:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/packages/themes/dist/themes.css[22m
