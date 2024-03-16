@@ -1,0 +1,263 @@
+[1m@storybook/cli v7.6.17[22m[0m[0m
+[0m[0m
+info => Starting manager..
+WARN No story files found for the specified pattern: [34mstories/**/*.mdx[39m
+info => Starting preview..
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[38;2;241;97;140m╭─────────────────────────────────────────────────────────────────────╮[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [38;2;162;224;94mStorybook [1m7.6.17[22m for [1mreact-vite[22m started[39m                           [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90m[4m481 ms[24m for manager and [4m2.42 s[24m for preview[39m                         [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   Local:            [36mhttp://localhost:6006/[39m                          [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   On your network:  [36mhttp://192.168.35.3:6006/[39m                       [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [38;2;243;173;56mA new version ([1m8.0.0[22m) is available![39m                               [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90mUpgrade now:[39m [38;2;162;224;94mnpx storybook@latest upgrade[39m                         [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90mRead full changelog:[39m                                              [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m   [90m[4mhttps://github.com/storybookjs/storybook/blob/next/CHANGELOG.md[24m[39m   [38;2;241;97;140m│[39m
+[38;2;241;97;140m│[39m                                                                     [38;2;241;97;140m│[39m
+[38;2;241;97;140m╰─────────────────────────────────────────────────────────────────────╯[39m
+WARN 🚨 Unable to index ./stories/ReactComponents/Layout/Flex.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "," (28:1)
+WARN     at constructor (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:353:19)
+WARN     at TypeScriptParserMixin.raise (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3277:19)
+WARN     at TypeScriptParserMixin.unexpected (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3297:16)
+WARN     at TypeScriptParserMixin.expect (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3601:28)
+WARN     at TypeScriptParserMixin.parseObjectLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11344:14)
+WARN     at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10875:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:6821:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10590:23)
+WARN     at TypeScriptParserMixin.parseUpdate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10573:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10551:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9466:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10405:61)
+WARN     at TypeScriptParserMixin.parseExprOps (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10410:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10387:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10348:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9415:20)
+WARN     at /Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:39
+WARN     at TypeScriptParserMixin.allowInAnd (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11931:16)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:17)
+WARN     at TypeScriptParserMixin.parseVar (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12864:91)
+WARN     at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12710:10)
+WARN     at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9112:31)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12322:23)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+WARN     at TypeScriptParserMixin.parseStatementListItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12219:17)
+WARN     at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13396:17)
+WARN     at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9270:85)
+WARN     at TypeScriptParserMixin.maybeParseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13355:31)
+WARN     at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13282:29)
+WARN     at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9089:20)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12352:27)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+WARN     at TypeScriptParserMixin.parseModuleItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12216:17)
+WARN     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12796:36)
+WARN     at TypeScriptParserMixin.parseBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12789:10)
+WARN     at TypeScriptParserMixin.parseProgram (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12116:10)
+WARN     at TypeScriptParserMixin.parseTopLevel (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12106:25)
+WARN     at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13905:10)
+WARN     at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9743:18)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13947:38)
+WARN     at parseWithFlowOrTypescript (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2286)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2489)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/recast-npm-0.23.6-518fb470cb-10c0.zip/node_modules/recast/lib/parser.js:23:30)
+WARN     at babelParse (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2448)
+WARN     at loadCsf (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:19:502)
+WARN     at readCsf (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:19:885)
+WARN     at async Object.createIndex (/Users/jh/.yarn/berry/cache/@storybook-core-server-npm-7.6.17-783995883c-10c0.zip/node_modules/@storybook/core-server/dist/presets/common-preset.js:21:1946)
+WARN     at async StoryIndexGenerator.extractStories (/Users/jh/.yarn/berry/cache/@storybook-core-server-npm-7.6.17-783995883c-10c0.zip/node_modules/@storybook/core-server/dist/index.js:55:316)
+[2m오전 12:25:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오전 12:25:13[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx: Unexpected token, expected "," (28:1)
+
+[0m [90m 26 |[31m[0m
+[0m [90m 27 |[31m     [33m<[31m[33m/[31m_Flex[33m>[31m[0m
+[0m[31m[1m>[22m[31m[90m 28 |[31m }[33m;[31m[0m
+[0m [90m    |[31m  [31m[1m^[22m[31m[0m
+[0m [90m 29 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx[39m:28:1
+[33m  26 |  
+  27 |      </_Flex>
+  28 |  };
+     |   ^
+  29 |  [39m
+      at constructor (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11931:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseVar (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9112:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12322:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12219:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13396:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9270:85)
+      at TypeScriptParserMixin.maybeParseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13355:31)
+      at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13282:29)
+      at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9089:20)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12352:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12216:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12116:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12106:25)
+      at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13905:10)
+      at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9743:18)
+      at parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13947:38)
+      at parser (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+WARN 🚨 Unable to index ./stories/ReactComponents/Layout/Flex.stories.tsx:
+WARN   SyntaxError: Unexpected token, expected "," (27:1)
+WARN     at constructor (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:353:19)
+WARN     at TypeScriptParserMixin.raise (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3277:19)
+WARN     at TypeScriptParserMixin.unexpected (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3297:16)
+WARN     at TypeScriptParserMixin.expect (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3601:28)
+WARN     at TypeScriptParserMixin.parseObjectLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11344:14)
+WARN     at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10875:23)
+WARN     at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:6821:20)
+WARN     at TypeScriptParserMixin.parseExprSubscripts (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10590:23)
+WARN     at TypeScriptParserMixin.parseUpdate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10573:21)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10551:23)
+WARN     at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9466:18)
+WARN     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10405:61)
+WARN     at TypeScriptParserMixin.parseExprOps (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10410:23)
+WARN     at TypeScriptParserMixin.parseMaybeConditional (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10387:23)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10348:21)
+WARN     at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9415:20)
+WARN     at /Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:39
+WARN     at TypeScriptParserMixin.allowInAnd (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11931:16)
+WARN     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:17)
+WARN     at TypeScriptParserMixin.parseVar (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12864:91)
+WARN     at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12710:10)
+WARN     at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9112:31)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12322:23)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+WARN     at TypeScriptParserMixin.parseStatementListItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12219:17)
+WARN     at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13396:17)
+WARN     at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9270:85)
+WARN     at TypeScriptParserMixin.maybeParseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13355:31)
+WARN     at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13282:29)
+WARN     at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9089:20)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12352:27)
+WARN     at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+WARN     at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+WARN     at TypeScriptParserMixin.parseModuleItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12216:17)
+WARN     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12796:36)
+WARN     at TypeScriptParserMixin.parseBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12789:10)
+WARN     at TypeScriptParserMixin.parseProgram (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12116:10)
+WARN     at TypeScriptParserMixin.parseTopLevel (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12106:25)
+WARN     at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13905:10)
+WARN     at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9743:18)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13947:38)
+WARN     at parseWithFlowOrTypescript (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2286)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2489)
+WARN     at Object.parse (/Users/jh/.yarn/berry/cache/recast-npm-0.23.6-518fb470cb-10c0.zip/node_modules/recast/lib/parser.js:23:30)
+WARN     at babelParse (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:1:2448)
+WARN     at loadCsf (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:19:502)
+WARN     at readCsf (/Users/jh/.yarn/berry/cache/@storybook-csf-tools-npm-7.6.17-ad070acba8-10c0.zip/node_modules/@storybook/csf-tools/dist/index.js:19:885)
+WARN     at async Object.createIndex (/Users/jh/.yarn/berry/cache/@storybook-core-server-npm-7.6.17-783995883c-10c0.zip/node_modules/@storybook/core-server/dist/presets/common-preset.js:21:1946)
+WARN     at async StoryIndexGenerator.extractStories (/Users/jh/.yarn/berry/cache/@storybook-core-server-npm-7.6.17-783995883c-10c0.zip/node_modules/@storybook/core-server/dist/index.js:55:316)
+[2m오전 12:25:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오전 12:25:15[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx: Unexpected token, expected "," (27:1)
+
+[0m [90m 25 |[31m     [33m<[31m[33mdiv[31m[33m>[31m입니다[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[0m
+[0m [90m 26 |[31m     [33m<[31m[33m/[31m_Flex[33m>[31m[0m
+[0m[31m[1m>[22m[31m[90m 27 |[31m }[33m;[31m[0m
+[0m [90m    |[31m  [31m[1m^[22m[31m[0m
+[0m [90m 28 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Flex.stories.tsx[39m:27:1
+[33m  25 |      <div>입니다</div>
+  26 |      </_Flex>
+  27 |  };
+     |   ^
+  28 |  [39m
+      at constructor (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:353:19)
+      at TypeScriptParserMixin.raise (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3277:19)
+      at TypeScriptParserMixin.unexpected (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3297:16)
+      at TypeScriptParserMixin.expect (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:3601:28)
+      at TypeScriptParserMixin.parseObjectLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11344:14)
+      at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10875:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:6821:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10590:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10573:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10551:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9466:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10405:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10410:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10387:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10348:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9415:20)
+      at /Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:39
+      at TypeScriptParserMixin.allowInAnd (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:11931:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:10318:17)
+      at TypeScriptParserMixin.parseVar (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12864:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12710:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9112:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12322:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12219:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13396:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9270:85)
+      at TypeScriptParserMixin.maybeParseExportDeclaration (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13355:31)
+      at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13282:29)
+      at TypeScriptParserMixin.parseExport (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9089:20)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12352:27)
+      at TypeScriptParserMixin.parseStatementContent (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9142:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12239:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12216:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12796:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12789:10)
+      at TypeScriptParserMixin.parseProgram (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12116:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:12106:25)
+      at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13905:10)
+      at TypeScriptParserMixin.parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:9743:18)
+      at parse (/Users/jh/.yarn/berry/cache/@babel-parser-npm-7.24.0-0a438e924c-10c0.zip/node_modules/@babel/parser/lib/index.js:13947:38)
+      at parser (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/jh/.yarn/berry/cache/@babel-core-npm-7.24.0-b1f835a8d5-10c0.zip/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+[2m오전 12:25:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오전 12:25:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
+[2m오전 12:25:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오전 12:25:46[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.js) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오전 12:25:46[22m [31m[1m[vite][22m[39m Pre-transform error: Failed to load url /@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css (resolved id: /Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css) in /Users/jh/Desktop/Home/Programming/study/Next/front/services/storybook/stories/ReactComponents/Layout/Box.stories.tsx. Does the file exist?
+[2m오전 12:25:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/@fs/Users/jh/Desktop/Home/Programming/study/Next/front/.yarn/__virtual__/@h0onnn-react-components-layout-virtual-a9e1b70e70/1/packages/react/components/layout/dist/index.css[22m
+[2m오전 12:25:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/virtual:/@storybook/builder-vite/vite-app.js[22m
