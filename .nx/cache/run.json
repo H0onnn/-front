@@ -1,21 +1,43 @@
 {
   "run": {
-    "command": "nx storybook @h0onnn/storybook",
-    "startTime": "2024-03-16T15:41:12.229Z",
-    "endTime": "2024-03-16T15:41:30.336Z",
+    "command": "nx build @h0onnn/react-components-layout",
+    "startTime": "2024-03-17T08:10:44.037Z",
+    "endTime": "2024-03-17T08:10:58.532Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@h0onnn/storybook:storybook",
-      "target": "storybook",
-      "projectName": "@h0onnn/storybook",
-      "hash": "18151894919743108757",
-      "startTime": "2024-03-16T15:41:12.242Z",
-      "endTime": "2024-03-16T15:41:30.335Z",
+      "taskId": "@h0onnn/esbuild-config:build",
+      "target": "build",
+      "projectName": "@h0onnn/esbuild-config",
+      "hash": "133981316454470076",
+      "startTime": "2024-03-17T08:10:44.043Z",
+      "endTime": "2024-03-17T08:10:45.336Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
+    },
+    {
+      "taskId": "@h0onnn/themes:build",
+      "target": "build",
+      "projectName": "@h0onnn/themes",
+      "hash": "5900617944243064183",
+      "startTime": "2024-03-17T08:10:45.338Z",
+      "endTime": "2024-03-17T08:10:51.211Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@h0onnn/react-components-layout:build",
+      "target": "build",
+      "projectName": "@h0onnn/react-components-layout",
+      "hash": "8252958578917618669",
+      "startTime": "2024-03-17T08:10:51.212Z",
+      "endTime": "2024-03-17T08:10:58.531Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
     }
   ]
 }
