@@ -2,6 +2,7 @@
   "name": "@h0onnn/storybook",
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
+    "@h0onnn/react-components-button": "workspace:^",
     "@h0onnn/react-components-layout": "workspace:^",
     "@h0onnn/themes": "workspace:^",
     "@storybook/addon-essentials": "^7.6.17",
