@@ -2089,6 +2089,7 @@ __metadata:
   resolution: "@h0onnn/react-components-button@workspace:packages/react/components/button"
   dependencies:
     "@h0onnn/esbuild-config": "workspace:^"
+    "@h0onnn/react-hooks-button": "workspace:^"
     "@h0onnn/themes": "workspace:^"
     "@types/react": "npm:^18.2.64"
     "@types/react-dom": "npm:^18.2.21"
@@ -2129,12 +2130,29 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@h0onnn/react-hooks-button@workspace:^, @h0onnn/react-hooks-button@workspace:packages/react/hooks/button":
+  version: 0.0.0-use.local
+  resolution: "@h0onnn/react-hooks-button@workspace:packages/react/hooks/button"
+  dependencies:
+    "@h0onnn/esbuild-config": "workspace:^"
+    "@types/react": "npm:^18.2.64"
+    "@types/react-dom": "npm:^18.2.21"
+    clsx: "npm:^2.1.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.4.2"
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@h0onnn/storybook@workspace:services/storybook":
   version: 0.0.0-use.local
   resolution: "@h0onnn/storybook@workspace:services/storybook"
   dependencies:
     "@h0onnn/react-components-button": "workspace:^"
     "@h0onnn/react-components-layout": "workspace:^"
+    "@h0onnn/react-hooks-button": "workspace:^"
     "@h0onnn/themes": "workspace:^"
     "@storybook/addon-essentials": "npm:^7.6.17"
     "@storybook/addon-interactions": "npm:^7.6.17"

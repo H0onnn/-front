@@ -37,6 +37,7 @@
     "react": "*"
   },
   "dependencies": {
+    "@h0onnn/react-hooks-button": "workspace:^",
     "clsx": "^2.1.0"
   }
 }
