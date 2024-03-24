@@ -1,6 +1,9 @@
 import "@h0onnn/react-components-button/style.css";
 import { Button as _Button } from "@h0onnn/react-components-button";
+import "@h0onnn/react-components-layout/style.css";
+import { Text } from "@h0onnn/react-components-layout";
 import { vars } from "@h0onnn/themes";
+import { useButton } from "@h0onnn/react-hooks-button";
 
 export default {
   title: "React Components/Button",
@@ -33,5 +36,31 @@ export const ButtonStory = {
     isDisabled: false,
     isLoading: true,
     leftIcon: "😍",
+  },
+};
+
+export const TextButtonStory = {
+  render: () => {
+    const { buttonProps } = useButton({
+      elementType: "div",
+      onClick: () => {
+        console.log("ttt");
+      },
+    });
+
+    return (
+      <Text
+        {...buttonProps}
+        as="div"
+        fontSize="md"
+        color="green"
+        style={{
+          userSelect: "none",
+          cursor: "pointer",
+        }}
+      >
+        텍스트 버튼입니다.
+      </Text>
+    );
   },
 };
