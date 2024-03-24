@@ -120,6 +120,66 @@
         "tags": []
       }
     },
+    "@h0onnn/react-hooks-button": {
+      "name": "@h0onnn/react-hooks-button",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/button",
+        "targets": {
+          "build": {
+            "executor": "nx:run-script",
+            "dependsOn": [
+              "^build"
+            ],
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "sourceRoot": "packages/react/hooks/button",
+        "name": "@h0onnn/react-hooks-button",
+        "projectType": "library",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@h0onnn/esbuild-config": {
       "name": "@h0onnn/esbuild-config",
       "type": "lib",
@@ -11266,6 +11326,11 @@
     "@h0onnn/react-components-button": [
       {
         "source": "@h0onnn/react-components-button",
+        "target": "@h0onnn/react-hooks-button",
+        "type": "static"
+      },
+      {
+        "source": "@h0onnn/react-components-button",
         "target": "@h0onnn/esbuild-config",
         "type": "static"
       },
@@ -11297,8 +11362,25 @@
         "type": "static"
       }
     ],
+    "@h0onnn/react-hooks-button": [
+      {
+        "source": "@h0onnn/react-hooks-button",
+        "target": "@h0onnn/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@h0onnn/react-hooks-button",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@h0onnn/esbuild-config": [],
     "@h0onnn/storybook": [
+      {
+        "source": "@h0onnn/storybook",
+        "target": "@h0onnn/react-hooks-button",
+        "type": "static"
+      },
       {
         "source": "@h0onnn/storybook",
         "target": "@h0onnn/react-components-button",
